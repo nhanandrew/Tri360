@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		930A5ADD1B7D35C70034521C /* SelectionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930A5ADC1B7D35C70034521C /* SelectionScene.swift */; };
+		9391CBAF1B62A8C700DC5AB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9391CBAE1B62A8C700DC5AB4 /* AppDelegate.swift */; };
+		9391CBB11B62A8C700DC5AB4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9391CBB01B62A8C700DC5AB4 /* GameScene.sks */; };
+		9391CBB31B62A8C700DC5AB4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9391CBB21B62A8C700DC5AB4 /* GameScene.swift */; };
+		9391CBB51B62A8C700DC5AB4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9391CBB41B62A8C700DC5AB4 /* GameViewController.swift */; };
+		9391CBB81B62A8C700DC5AB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9391CBB61B62A8C700DC5AB4 /* Main.storyboard */; };
+		9391CBBA1B62A8C700DC5AB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9391CBB91B62A8C700DC5AB4 /* Images.xcassets */; };
+		9391CBBD1B62A8C700DC5AB4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9391CBBB1B62A8C700DC5AB4 /* LaunchScreen.xib */; };
+		9391CBC91B62A8C700DC5AB4 /* Tri360Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9391CBC81B62A8C700DC5AB4 /* Tri360Tests.swift */; };
+		9391CBD31B62A8FF00DC5AB4 /* StartGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9391CBD21B62A8FF00DC5AB4 /* StartGameScene.swift */; };
+		9391CBD51B62A90B00DC5AB4 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9391CBD41B62A90B00DC5AB4 /* GameOverScene.swift */; };
+		9391CBE21B62BA6F00DC5AB4 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9391CBE01B62BA6F00DC5AB4 /* correct.mp3 */; };
+		9391CBE31B62BA6F00DC5AB4 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9391CBE11B62BA6F00DC5AB4 /* lose.mp3 */; };
+		93CDF94B1B79B44C0096B10E /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CDF94A1B79B44C0096B10E /* Chartboost.framework */; };
+		93CDF94D1B79B45D0096B10E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CDF94C1B79B45D0096B10E /* StoreKit.framework */; };
+		93CDF94F1B79B4620096B10E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CDF94E1B79B4620096B10E /* Foundation.framework */; };
+		93CDF9511B79B46E0096B10E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CDF9501B79B46E0096B10E /* CoreGraphics.framework */; };
+		93CDF9531B79B4730096B10E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CDF9521B79B4730096B10E /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9391CBC31B62A8C700DC5AB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9391CBA11B62A8C700DC5AB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9391CBA81B62A8C700DC5AB4;
+			remoteInfo = Tri360;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		930A5ADC1B7D35C70034521C /* SelectionScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionScene.swift; sourceTree = "<group>"; };
+		930D6FBF1B7BEF3D002F022E /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		930D6FD91B7BF61C002F022E /* Tri360 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Tri360 copy-Info.plist"; path = "/Users/andrewnhan/Desktop/Swift/Tri360/Tri360 copy-Info.plist"; sourceTree = "<absolute>"; };
+		9391CBA91B62A8C700DC5AB4 /* Tri360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tri360.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9391CBAD1B62A8C700DC5AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9391CBAE1B62A8C700DC5AB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9391CBB01B62A8C700DC5AB4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9391CBB21B62A8C700DC5AB4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9391CBB41B62A8C700DC5AB4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9391CBB71B62A8C700DC5AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9391CBB91B62A8C700DC5AB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9391CBBC1B62A8C700DC5AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9391CBC21B62A8C700DC5AB4 /* Tri360Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tri360Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9391CBC71B62A8C700DC5AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9391CBC81B62A8C700DC5AB4 /* Tri360Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tri360Tests.swift; sourceTree = "<group>"; };
+		9391CBD21B62A8FF00DC5AB4 /* StartGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartGameScene.swift; sourceTree = "<group>"; };
+		9391CBD41B62A90B00DC5AB4 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		9391CBD61B62A96700DC5AB4 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		9391CBE01B62BA6F00DC5AB4 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
+		9391CBE11B62BA6F00DC5AB4 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		93CDF94A1B79B44C0096B10E /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chartboost.framework; path = ../../../Downloads/Chartboost/Chartboost.framework; sourceTree = "<group>"; };
+		93CDF94C1B79B45D0096B10E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		93CDF94E1B79B4620096B10E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93CDF9501B79B46E0096B10E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93CDF9521B79B4730096B10E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9391CBA61B62A8C700DC5AB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CDF9531B79B4730096B10E /* UIKit.framework in Frameworks */,
+				93CDF9511B79B46E0096B10E /* CoreGraphics.framework in Frameworks */,
+				93CDF94F1B79B4620096B10E /* Foundation.framework in Frameworks */,
+				93CDF94D1B79B45D0096B10E /* StoreKit.framework in Frameworks */,
+				93CDF94B1B79B44C0096B10E /* Chartboost.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9391CBBF1B62A8C700DC5AB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9391CBA01B62A8C700DC5AB4 = {
+			isa = PBXGroup;
+			children = (
+				930D6FBF1B7BEF3D002F022E /* BridgingHeader.h */,
+				93CDF9521B79B4730096B10E /* UIKit.framework */,
+				93CDF9501B79B46E0096B10E /* CoreGraphics.framework */,
+				93CDF94E1B79B4620096B10E /* Foundation.framework */,
+				93CDF94C1B79B45D0096B10E /* StoreKit.framework */,
+				93CDF94A1B79B44C0096B10E /* Chartboost.framework */,
+				9391CBD61B62A96700DC5AB4 /* iAd.framework */,
+				9391CBAB1B62A8C700DC5AB4 /* Tri360 */,
+				9391CBC51B62A8C700DC5AB4 /* Tri360Tests */,
+				9391CBAA1B62A8C700DC5AB4 /* Products */,
+				930D6FD91B7BF61C002F022E /* Tri360 copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		9391CBAA1B62A8C700DC5AB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9391CBA91B62A8C700DC5AB4 /* Tri360.app */,
+				9391CBC21B62A8C700DC5AB4 /* Tri360Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9391CBAB1B62A8C700DC5AB4 /* Tri360 */ = {
+			isa = PBXGroup;
+			children = (
+				9391CBAE1B62A8C700DC5AB4 /* AppDelegate.swift */,
+				9391CBB41B62A8C700DC5AB4 /* GameViewController.swift */,
+				9391CBD21B62A8FF00DC5AB4 /* StartGameScene.swift */,
+				930A5ADC1B7D35C70034521C /* SelectionScene.swift */,
+				9391CBB21B62A8C700DC5AB4 /* GameScene.swift */,
+				9391CBD41B62A90B00DC5AB4 /* GameOverScene.swift */,
+				9391CBB01B62A8C700DC5AB4 /* GameScene.sks */,
+				9391CBB61B62A8C700DC5AB4 /* Main.storyboard */,
+				9391CBB91B62A8C700DC5AB4 /* Images.xcassets */,
+				9391CBBB1B62A8C700DC5AB4 /* LaunchScreen.xib */,
+				9391CBDA1B62A9B700DC5AB4 /* Resources */,
+				9391CBAC1B62A8C700DC5AB4 /* Supporting Files */,
+			);
+			path = Tri360;
+			sourceTree = "<group>";
+		};
+		9391CBAC1B62A8C700DC5AB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9391CBAD1B62A8C700DC5AB4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9391CBC51B62A8C700DC5AB4 /* Tri360Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9391CBC81B62A8C700DC5AB4 /* Tri360Tests.swift */,
+				9391CBC61B62A8C700DC5AB4 /* Supporting Files */,
+			);
+			path = Tri360Tests;
+			sourceTree = "<group>";
+		};
+		9391CBC61B62A8C700DC5AB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9391CBC71B62A8C700DC5AB4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9391CBDA1B62A9B700DC5AB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9391CBDB1B62A9C000DC5AB4 /* Sounds */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9391CBDB1B62A9C000DC5AB4 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9391CBE01B62BA6F00DC5AB4 /* correct.mp3 */,
+				9391CBE11B62BA6F00DC5AB4 /* lose.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9391CBA81B62A8C700DC5AB4 /* Tri360 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9391CBCC1B62A8C700DC5AB4 /* Build configuration list for PBXNativeTarget "Tri360" */;
+			buildPhases = (
+				9391CBA51B62A8C700DC5AB4 /* Sources */,
+				9391CBA61B62A8C700DC5AB4 /* Frameworks */,
+				9391CBA71B62A8C700DC5AB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tri360;
+			productName = Tri360;
+			productReference = 9391CBA91B62A8C700DC5AB4 /* Tri360.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9391CBC11B62A8C700DC5AB4 /* Tri360Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9391CBCF1B62A8C700DC5AB4 /* Build configuration list for PBXNativeTarget "Tri360Tests" */;
+			buildPhases = (
+				9391CBBE1B62A8C700DC5AB4 /* Sources */,
+				9391CBBF1B62A8C700DC5AB4 /* Frameworks */,
+				9391CBC01B62A8C700DC5AB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9391CBC41B62A8C700DC5AB4 /* PBXTargetDependency */,
+			);
+			name = Tri360Tests;
+			productName = Tri360Tests;
+			productReference = 9391CBC21B62A8C700DC5AB4 /* Tri360Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9391CBA11B62A8C700DC5AB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = NhanStudios;
+				TargetAttributes = {
+					9391CBA81B62A8C700DC5AB4 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = LU2KFTX629;
+					};
+					9391CBC11B62A8C700DC5AB4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 9391CBA81B62A8C700DC5AB4;
+					};
+				};
+			};
+			buildConfigurationList = 9391CBA41B62A8C700DC5AB4 /* Build configuration list for PBXProject "Tri360" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9391CBA01B62A8C700DC5AB4;
+			productRefGroup = 9391CBAA1B62A8C700DC5AB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9391CBA81B62A8C700DC5AB4 /* Tri360 */,
+				9391CBC11B62A8C700DC5AB4 /* Tri360Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9391CBA71B62A8C700DC5AB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9391CBE21B62BA6F00DC5AB4 /* correct.mp3 in Resources */,
+				9391CBBD1B62A8C700DC5AB4 /* LaunchScreen.xib in Resources */,
+				9391CBBA1B62A8C700DC5AB4 /* Images.xcassets in Resources */,
+				9391CBB11B62A8C700DC5AB4 /* GameScene.sks in Resources */,
+				9391CBB81B62A8C700DC5AB4 /* Main.storyboard in Resources */,
+				9391CBE31B62BA6F00DC5AB4 /* lose.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9391CBC01B62A8C700DC5AB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9391CBA51B62A8C700DC5AB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9391CBD51B62A90B00DC5AB4 /* GameOverScene.swift in Sources */,
+				9391CBB31B62A8C700DC5AB4 /* GameScene.swift in Sources */,
+				9391CBD31B62A8FF00DC5AB4 /* StartGameScene.swift in Sources */,
+				930A5ADD1B7D35C70034521C /* SelectionScene.swift in Sources */,
+				9391CBB51B62A8C700DC5AB4 /* GameViewController.swift in Sources */,
+				9391CBAF1B62A8C700DC5AB4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9391CBBE1B62A8C700DC5AB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9391CBC91B62A8C700DC5AB4 /* Tri360Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9391CBC41B62A8C700DC5AB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9391CBA81B62A8C700DC5AB4 /* Tri360 */;
+			targetProxy = 9391CBC31B62A8C700DC5AB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9391CBB61B62A8C700DC5AB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9391CBB71B62A8C700DC5AB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9391CBBB1B62A8C700DC5AB4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9391CBBC1B62A8C700DC5AB4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9391CBCA1B62A8C700DC5AB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9391CBCB1B62A8C700DC5AB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9391CBCD1B62A8C700DC5AB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/andrewnhan/Downloads/Chartboost,
+				);
+				INFOPLIST_FILE = Tri360/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9391CBCE1B62A8C700DC5AB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/andrewnhan/Downloads/Chartboost,
+				);
+				INFOPLIST_FILE = Tri360/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9391CBD01B62A8C700DC5AB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tri360Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tri360.app/Tri360";
+			};
+			name = Debug;
+		};
+		9391CBD11B62A8C700DC5AB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tri360Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tri360.app/Tri360";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9391CBA41B62A8C700DC5AB4 /* Build configuration list for PBXProject "Tri360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9391CBCA1B62A8C700DC5AB4 /* Debug */,
+				9391CBCB1B62A8C700DC5AB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9391CBCC1B62A8C700DC5AB4 /* Build configuration list for PBXNativeTarget "Tri360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9391CBCD1B62A8C700DC5AB4 /* Debug */,
+				9391CBCE1B62A8C700DC5AB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9391CBCF1B62A8C700DC5AB4 /* Build configuration list for PBXNativeTarget "Tri360Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9391CBD01B62A8C700DC5AB4 /* Debug */,
+				9391CBD11B62A8C700DC5AB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9391CBA11B62A8C700DC5AB4 /* Project object */;
+}
